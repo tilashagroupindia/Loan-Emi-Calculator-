@@ -1,0 +1,6 @@
+{
+  "name": "Loan & Payoff",
+  "description": "Sleek Loan EMI and Advance Repayment Calculator with Amortization Schedule and Payoff Optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

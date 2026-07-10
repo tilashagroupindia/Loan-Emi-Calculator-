@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shadow Effect for Shield -->
+    <path
+        android:fillColor="#40000000"
+        android:pathData="M56,28 L78,36 L78,58 C78,72 68,80 56,83 C44,80 34,72 34,58 L34,36 Z" />
+        
+    <!-- Main Golden Shield -->
+    <path
+        android:pathData="M54,26 L76,34 L76,56 C76,70 66,78 54,81 C42,78 32,70 32,56 L32,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="76"
+                android:endY="81"
+                android:startX="32"
+                android:startY="26"
+                android:type="linear">
+                <item android:color="#FFE259" android:offset="0.0" />
+                <item android:color="#FFA751" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Deep Blue Inner Shield Cutout -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M54,30 L72,37 L72,55 C72,67 63,74 54,77 C45,74 36,67 36,55 L36,37 Z" />
+
+    <!-- Golden Percent Sign inside Shield -->
+    <!-- Diagonal Slash -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFE259"
+        android:strokeLineCap="round"
+        android:pathData="M45,61 L63,43" />
+    
+    <!-- Top-Left Circle -->
+    <path
+        android:fillColor="#FFE259"
+        android:pathData="M47,46 A3,3 0 1 1 46.99,46 Z" />
+
+    <!-- Bottom-Right Circle -->
+    <path
+        android:fillColor="#FFE259"
+        android:pathData="M61,60 A3,3 0 1 1 60.99,60 Z" />
+
+    <!-- Sleek Repayment Arrow looping at the bottom representing debt paydown -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#3DDC84"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,56 C30,70 42,82 56,82 C64,82 72,76 76,68" />
+        
+    <!-- Arrow Head -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M30,56 L26,61 L34,61 Z" />
+</vector>
